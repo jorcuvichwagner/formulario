@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <div>
+        <h1>Cadastro de Alunos</h1>
+        <p>Preencha os dados completos para cadastro</p>
+    </div>
+
+    <form action="#" method="post">
+        <label for="nome_aluno">Nome Completo do Aluno</label>
+        <input type="text" name="nome_aluno" id="nome_aluno">
+        <br>
+        <label for="email_aluno">E-mail</label>
+        <input type="email" name="email_aluno" id="email_aluno">
+        <br>
+        <label for="senha_aluno">Senha</label>
+        <input type="password" name="senha_aluno" id="senha_aluno">
+        <br><br>
+        <label><strong>Qual a Sua Turma</strong></label>
+
+        <label>
+            <input type="radio" name="turma_aluno" id="turma_aluno" value="2anem">2 A NEM
+        </label>
+        <label>
+            <input type="radio" name="turma_aluno" id="turma_aluno" value="2bnem">2 B NEM
+        </label>
+        <label>
+            <input type="radio" name="turma_aluno" id="turma_aluno" value="2ads">2 A DS
+        </label>
+        <label>
+            <input type="radio" name="turma_aluno" id="turma_aluno" value="2bds">2 B DS
+        </label>
+        <br><br>
+        <label for="melhor_materia">Qual a Melhor Matéria?</label>
+        <select name="melhor_materia" id="melhor_materia">
+            <option selected disabled value="">Selecione</option>
+            <option>Matemática</option>
+            <option>Português</option>
+            <option>Física</option>
+        </select>
+        <br><br>
+        <label for="">Quais os melhores dias da Semana</label>
+            <input type="checkbox" name="dia_semana" id="dia_semana" value="segunda">
+            <label for="segunda">Segunda-feira</label>
+            <input type="checkbox" name="dia_semana" id="dia_semana" value="terca">
+            <label for="terca">Terça-feira</label>
+
+        <br><br>
+        <button type="submit">Enviar</button>
+
+    </form>
+
+
+</body>
+</html>
